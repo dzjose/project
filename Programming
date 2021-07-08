@@ -1,10 +1,9 @@
 #Python code to compute factorials
 
-n = 4
-fact = 1
+number = eval(input("Enter a non-negative intiger to take the factorial of: "))
 
-for i in range(1,n+1):
-  fact = fact * i
-
-print ("The factorial of n is : ",end="")
-print (fact)
+product = 1
+for i in range(number):
+	product = product * (i+1)
+    
+print (product)
